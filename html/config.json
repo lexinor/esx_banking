@@ -89,6 +89,7 @@
       "showPincodeErrorMessage": "The pin must have at least 4 characters!",
       "tableLang": {
         "typeLabel": "Transaction type",
+        "transactionLabel": "Transaction Label",
         "balanceLabel": "Balance",
         "amountLabel": "Amount",
         "timeLabel": "Time",
@@ -186,6 +187,7 @@
       "showPincodeErrorMessage": "Legalább 4 karakternek kell lennie a pinnek!",
       "tableLang": {
         "typeLabel": "Tranzakció típus",
+        "transactionLabel": "Tranzakció leírása",
         "balanceLabel": "Egyenleged",
         "amountLabel": "Összeg",
         "timeLabel": "Idő",
@@ -283,6 +285,7 @@
       "showPincodeErrorMessage": "Il pin deve contenere almeno 4 caratteri!",
       "tableLang": {
         "typeLabel": "Tipo di transazione",
+        "transactionLabel": "Transaction Label",
         "balanceLabel": "bilancio",
         "amountLabel": "quantità",
         "timeLabel": "tempo",
@@ -380,6 +383,7 @@
       "showPincodeErrorMessage": "El pin debe tener al menos 4 caracteres.",
       "tableLang": {
         "typeLabel": "Tipo de transacción",
+        "transactionLabel": "Transaction Label",
         "balanceLabel": "Saldo",
         "amountLabel": "Importe",
         "timeLabel": "Tiempo",
@@ -477,16 +481,115 @@
       "showPincodeErrorMessage": "Le code PIN doit avoir au moins 4 caractères!",
       "tableLang": {
         "typeLabel": "Type de transaction",
+        "transactionLabel": "Transaction Label",
         "balanceLabel": "Solde",
         "amountLabel": "Montant",
         "timeLabel": "Temps",
         "searchInputPlaceholder": "Rechercher ...",
-        "_comment": "Langue complète: Anglais, Hongrois, Italien, Espagnole Français, vous pouvez trouver ici toutes les langues: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
+        "_comment": "Langue complète: Anglais, Hongrois, Italien, Espagnole, Français, vous pouvez trouver ici toutes les langues: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
         "tableFullLanguage": "French"
       }
     }
   },
-    "zh-CN": {
+  "NL": {
+    "DYNAMIC_FORM_DATA": [
+      {
+        "componentName": "moreGraph",
+        "elementID": "#wrapper",
+        "title": "",
+        "closeButtonText": "Sluit",
+        "bankTitle": "Fleeca Bank",
+        "mainExitButtonText": "Log uit"
+      },
+      {
+        "elementID": "#cpincode",
+        "name": "cpincode",
+        "buttonText": "Goedkeuren",
+        "inputPlaceholder": "Voer 4 cijfers in...",
+        "title": "PINCODE INSTELLEN",
+        "description": "Hier kun je je pincode instellen of wijzigen.",
+        "type": "password"
+      },
+      {
+        "elementID": "#withdraw",
+        "name": "withdraw",
+        "buttonText": "Opnemen",
+        "inputPlaceholder": "Bedrag",
+        "title": "OPNEMEN",
+        "description": "Hier kun je geld opnemen van je bank account.",
+        "type": "number"
+      },
+      {
+        "elementID": "#deposit",
+        "name": "deposit",
+        "buttonText": "Storten",
+        "inputPlaceholder": "Bedrag",
+        "title": "STORTEN",
+        "description": "Hier kun je geld storten op je bank account.",
+        "type": "number"
+      },
+      {
+        "elementID": "#transfer",
+        "name": "transfer",
+        "buttonText": "Overschrijven",
+        "inputPlaceholder": "Bedrag",
+        "inputPlaceholder2": "Speler ID",
+        "title": "OVERSCHRIJVEN",
+        "description": "Hier kun je geld overschrijven naar iemand anders zijn bank account."
+      },
+      {
+        "componentName": "trans",
+        "elementID": "#third-column",
+        "title": "TRANSACTIE GESCHIEDENIS",
+        "description": "Hier kun je alle transacties zien die op je bank account zijn vericht.",
+        "moreHistoryText": "Laat meer geschiedenis zien",
+        "moreGraphText": "Laat meer van de grafiek zien"
+      },
+      {
+        "componentName": "pincodePanel",
+        "elementID": "#wrapper",
+        "title": "Voer pincode in",
+        "deleteButtonText": "<i class='fa-solid fa-ban'></i>",
+        "loginButtonText": "<i class='fa-solid fa-right-to-bracket'></i>",
+        "closeButtonText": "Sluit"
+      },
+      {
+        "componentName": "atmComponent",
+        "elementID": "#wrapper",
+        "title": "Fleeca Bank",
+        "closeButtonText": "Log uit"
+      }
+    ],
+    "LAUNGAGE": {
+      "your_money_title": "Saldo",
+      "your_money_desc": "Hier kun je je saldo en je cash zien.",
+      "your_money_cash_label": "Jouw cash",
+      "your_money_bank_label": "Jouw bank saldo",
+      "withdraw": "OPNEMEN",
+      "deposit": "STORTEN",
+      "transfer": "OVERSCHRIJVEN",
+      "transferReceive": "ONTVANGEN ONVERSCHRIJVING",
+      "moneyFormat": "€__replaceData__",
+      "graphTitle": "Jouw saldo",
+      "moreGraphTitle": "Grote grafiek",
+      "moreHistoryTitle": "Laat meer geschiedenis zien",
+      "inputErrorTitle": "Data is niet correct",
+      "inputErrorMessage": "Deze input kan niet leeg zijn of een waarde minder dan 1 !",
+      "showPincodeErrorTitle": "PIN onjuist",
+      "showPincodeErrorMessage": "Je pincode moet tenminste 4 karakters hebben!",
+      "tableLang": {
+        "typeLabel": "Transactie type",
+        "transactionLabel": "Transaction Label",
+        "balanceLabel": "Saldo",
+        "amountLabel": "Bedrag",
+        "timeLabel": "Tijd",
+        "searchInputPlaceholder": "Zoeken ...",
+        "_comment": "tableFullLanguage options: English, Hungarian, Italian, Spanish, French, you can find here all lang: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
+        "tableFullLanguage": "Nederlands"
+      }
+    }
+  },
+  "zh-CN": {
     "DYNAMIC_FORM_DATA": [
       {
         "componentName": "moreGraph",
@@ -574,12 +677,110 @@
       "showPincodeErrorMessage": "PIN 码必须至少有 4 个字符!",
       "tableLang": {
         "typeLabel": "交易类型",
+        "transactionLabel": "Transaction Label",
         "balanceLabel": "我的信息",
         "amountLabel": "数量",
         "timeLabel": "时间",
         "searchInputPlaceholder": "研究 ...",
         "_comment": "Langue complète: Anglais, Hongrois, Italien, Espagnole Français, vous pouvez trouver ici toutes les langues: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
         "tableFullLanguage": "Chinese"
+      }
+    }
+  },
+  "SR": {
+    "DYNAMIC_FORM_DATA": [
+      {
+        "componentName": "moreGraph",
+        "elementID": "#wrapper",
+        "title": "",
+        "closeButtonText": "Zatvori",
+        "bankTitle": "Fleeca Banka",
+        "mainExitButtonText": "Log out"
+      },
+      {
+        "elementID": "#cpincode",
+        "name": "cpincode",
+        "buttonText": "Potvrdi",
+        "inputPlaceholder": "Unesi 4 cifre...",
+        "title": "PIN KOD",
+        "description": "Ovde možete postaviti ili izmeniti PIN kod.",
+        "type": "password"
+      },
+      {
+        "elementID": "#withdraw",
+        "name": "withdraw",
+        "buttonText": "Potvrdi",
+        "inputPlaceholder": "Iznos",
+        "title": "PODIGNI",
+        "description": "Ovde možete podići novac sa vašeg računa.",
+        "type": "number"
+      },
+      {
+        "elementID": "#deposit",
+        "name": "deposit",
+        "buttonText": "Potvrdi",
+        "inputPlaceholder": "Iznos",
+        "title": "UPLATA",
+        "description": "Ovde možete uplatiti novac na vaš račun",
+        "type": "number"
+      },
+      {
+        "elementID": "#transfer",
+        "name": "transfer",
+        "buttonText": "Transfer",
+        "inputPlaceholder": "Iznos",
+        "inputPlaceholder2": "ID Osobe",
+        "title": "TRANSFER",
+        "description": "Ovde možete poslati novac nekome."
+      },
+      {
+        "componentName": "trans",
+        "elementID": "#third-column",
+        "title": "ISTORIJA TRANSAKCIJA",
+        "description": "Ovde možete videti istoriju transakcija.",
+        "moreHistoryText": "Prikaži više",
+        "moreGraphText": "Prikaži više grafikona"
+      },
+      {
+        "componentName": "pincodePanel",
+        "elementID": "#wrapper",
+        "title": "Unesite PIN",
+        "deleteButtonText": "<i class='fa-solid fa-ban'></i>",
+        "loginButtonText": "<i class='fa-solid fa-right-to-bracket'></i>",
+        "closeButtonText": "Zatvori"
+      },
+      {
+        "componentName": "atmComponent",
+        "elementID": "#wrapper",
+        "title": "Fleeca Banka",
+        "closeButtonText": "Log out"
+      }
+    ],
+    "LAUNGAGE": {
+      "your_money_title": "Balans",
+      "your_money_desc": "Ovde možete videti iznos novca na vašem računu i kod vas",
+      "your_money_cash_label": "Vaš novac",
+      "your_money_bank_label": "Vaš novac na računu",
+      "withdraw": "PODIGNI",
+      "deposit": "UPLATI",
+      "transfer": "TRANSFER",
+      "transferReceive": "PRIMLJEN TRANSFER",
+      "moneyFormat": "$__replaceData__",
+      "graphTitle": "Vaš balansa",
+      "moreGraphTitle": "Veliki Grafikon",
+      "moreHistoryTitle": "Prikaži više",
+      "inputErrorTitle": "Podaci su nevažeći",
+      "inputErrorMessage": "Ne može biti prazno ili iznos manji od 1!",
+      "showPincodeErrorTitle": "PIN netačan",
+      "showPincodeErrorMessage": "PIN mora imati 4 karaktera!",
+      "tableLang": {
+        "typeLabel": "Tip transakcije",
+        "balanceLabel": "Balans",
+        "amountLabel": "Iznos",
+        "timeLabel": "Vreme",
+        "searchInputPlaceholder": "Pretraži ...",
+        "_comment": "tableFullLanguage options: English, Hungarian, Italian, Spanish, French, Serbian, you can find here all lang: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
+        "tableFullLanguage": "Serbian"
       }
     }
   }
